@@ -34,8 +34,7 @@ por cualquier uso indebido o ilegal de la herramienta.
 
 # Función para imprimir el banner con colores personalizados
 def print_colored_banner(BANNER, WARNING):
-    # Rojo con fondo negro para el banner
-    print("\033[1;37;41m" + BANNER + "\033[0m")
+    print("\033[1;31m" + BANNER + "\033[0m")
     # Blanco para el mensaje de advertencia
     print("\033[1;37m" + WARNING + "\033[0m")
 
